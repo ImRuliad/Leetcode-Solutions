@@ -18,7 +18,6 @@ Input: s = "Test1ng-Leet=code-Q!"
 Output: "Qedo1ct-eeLg=ntse-T!"
 """
 
-
 class Solution:
     def reverseOnlyLetters(self, s: str) -> str:
 
