@@ -15,7 +15,7 @@ Output: [0]
 
 class Solution:
     def sortArrayByParity(self, nums: List[int]) -> List[int]:
-     
+
         left: int = 0
         right: int = len(nums) - 1
 
