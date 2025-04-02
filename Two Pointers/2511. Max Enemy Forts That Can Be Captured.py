@@ -29,8 +29,10 @@ Explanation:
 """
 
 
+
+#Solution could be more concise.
+#Uses Two pointers + Kadanes Algorithm
 class Solution:
-    #Sort of a brute force approach, I dont like my solution... It could be better.
     def captureForts(self, forts: List[int]) -> int:
         slow = 0
         fast = 0
