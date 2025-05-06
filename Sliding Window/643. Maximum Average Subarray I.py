@@ -12,7 +12,7 @@ Example 2:
 Input: nums = [5], k = 1
 Output: 5.00000
 """
-
+6
 class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
 
