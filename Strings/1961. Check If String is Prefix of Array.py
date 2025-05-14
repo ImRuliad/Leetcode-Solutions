@@ -17,11 +17,9 @@ It is impossible to make s using a prefix of arr.
 """
 class Solution:
     def isPrefixString(self, s: str, words: List[str]) -> bool:
-        """
-        """
 
-        prefix_string = ""
-        prefix_length = 0
+        prefix_string: str = ""
+        prefix_length: int = 0
 
         for word in words:
             prefix_string += word
