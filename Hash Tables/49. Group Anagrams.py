@@ -31,6 +31,7 @@ class Solution:
             if Tuple(Counter(word)) in dict --> append to list
             else dict[Tuple(Counter(word))] = [word]
         """
+
         seen = {}
         for word in strs:
             sorted_word = "".join(sorted(word))
