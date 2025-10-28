@@ -24,3 +24,4 @@ class Solution:
             else:
                 stack.append(letter)
         return "".join(stack)
+    
